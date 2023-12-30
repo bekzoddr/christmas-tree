@@ -104,26 +104,26 @@ body {
   
   .balls {
     position: absolute;
-    background-color: #f34653;
+    background-color: yellow;
     width:15px;
     height: 15px;
     border-radius:50%;
     z-index:2;
     opacity:0;
-    box-shadow: -20px -55px #f34653, 25px -70px #f34653;
+    box-shadow: -20px -55px palevioletred, 25px -70px goldenrod;
     animation: drop 1s linear 1s forwards;
   }
   
   .balls:before {
     content:"";
     position: absolute;
-    background-color: #f34653;
-    width:13px;
-    height: 13px;
+    background-color: blueviolet;
+    width:14px;
+    height: 14px;
     border-radius:50%;
     left:-40px;
     top:-10px;
-    box-shadow: 100px 10px #f34653, 25px -80px #f34653, 60px -120px #f34653;
+    box-shadow: 100px 10px green, 25px -80px blue, 60px -120px blueviolet;
   }
   
   .balls:after {
@@ -144,7 +144,7 @@ body {
     width: 0px;
     height: 0px;
     border-right: 25px solid transparent;
-    border-bottom: 17.5px solid #f9c819;
+    border-bottom: 17.5px solid gold;
     border-left: 25px solid transparent;
     transform: rotate(-35deg);
     top:-190px;
@@ -154,7 +154,7 @@ body {
       }
   
   .star:before {
-        border-bottom: 20px solid #f9c819;
+        border-bottom: 20px solid gold;
         border-left: 7.5px solid transparent;
         border-right: 7.5px solid transparent;
         position: absolute;
@@ -175,7 +175,7 @@ body {
         width: 0px;
         height: 0px;
         border-right: 25px solid transparent;
-        border-bottom: 17.5px solid #f9c819;
+        border-bottom: 17.5px solid gold;
         border-left: 25px solid transparent;
         transform: rotate(-70deg);
         content: '';
@@ -203,7 +203,7 @@ body {
   .shadow {
     position: absolute;
     border-radius: 50%;
-    background-color: rgba(0,0,0,0.7);
+    background-color: #000000;
     width: 50px;
     height: 20px;
     z-index:-1;
